@@ -7,5 +7,3 @@ execute as @s[type=panda] run data modify storage eden:baby_mounts type set valu
 execute as @s[type=polar_bear] run data modify storage eden:baby_mounts type set value polar_bear
 execute as @s[type=sniffer] run data modify storage eden:baby_mounts type set value sniffer
 execute as @s[type=chicken] run data modify storage eden:baby_mounts type set value chicken
-
-function baby_mounts:spawn_baby_mount with storage eden:baby_mounts
