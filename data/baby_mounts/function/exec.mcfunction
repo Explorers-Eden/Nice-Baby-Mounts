@@ -1,5 +1,6 @@
 execute unless predicate eden:percentages/5 run return run tag @s add eden.baby_mount.set
 execute unless data entity @s {"Age": 0} run return run tag @s add eden.baby_mount.set
+execute if data entity @s {variant:"nice_mobs:skeleton"} run return run tag @s add eden.baby_mount.set
 
 function baby_mounts:get_color
 function baby_mounts:get_type
